@@ -10,6 +10,7 @@ before_script:
   - git clone --depth=1 https://github.com/wate/ansible-role-repo-epel.git repo-epel
   - git clone --depth=1 https://github.com/wate/ansible-role-repo-remi.git repo-remi
   - git clone --depth=1 https://github.com/wate/ansible-role-php.git php
+  - git clone --depth=1 https://github.com/wate/ansible-role-mariadb.git mariadb
   - mv ansible-role-$ROLE_NAME $ROLE_NAME
   - cd $ROLE_NAME
 script:
